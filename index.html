@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Responsive Dropdown Menu</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
-  <script src='main.js'></script>
-</head>
-<body>
-  <div>Hola mundo!</div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Responsive Dropdown Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+  </head>
+  <body>
+    <nav class="menu">
+      <section class="menu_container">
+        <h1 class="menu_logo">Miguel Ángel Sánchez González</h1>
+      </section>
+
+      <ul class="menu_links">
+        <li class="menu_items">
+          <a href="#" class="menu_link">Home</a>
+        </li>
+
+        <li class="menu_items">
+          <a href="#" class="menu_link">Opciones</a>
+
+          <ul class="menu_nesting">
+            <li class="menu_inside">
+              <a href="#" class="menu_link menu_link-inside">About 1</a>
+            </li>
+
+            <li class="menu_inside">
+              <a href="#" class="menu_link menu_link-inside">About 2</a>
+            </li>
+
+            <li class="menu_inside">
+              <a href="#" class="menu_link menu_link-inside">About 3</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
